@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 2rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Estilo especial cuando se llega a los 50 clics */
+body.especial {
+    background-color: #ff6347 !important; /* Color rojo tomate */
+}
+
+h1.especial {
+    color: #fff !important;
+}
+
+button.especial {
+    background-color: #ff6347 !important;
+}
